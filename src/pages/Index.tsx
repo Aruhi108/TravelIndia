@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Star, Users, Search } from 'lucide-react';
+import { MapPin, Star, Users, Search, Copyright, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Navigation from '@/components/Navigation';
@@ -247,7 +247,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 text-center text-white">
             <div>
               <MapPin className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-4xl font-bold mb-2">28+</h3>
+              <h3 className="text-4xl font-bold mb-2">25+</h3>
               <p className="text-xl">Indian States</p>
             </div>
             <div>
@@ -260,6 +260,25 @@ const Index = () => {
               <h3 className="text-4xl font-bold mb-2">4.9</h3>
               <p className="text-xl">Average Rating</p>
             </div>
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+           <div className="flex items-center justify-center mb-4">
+  <div className="flex-grow h-px bg-gray-400 mr-4"></div>
+  <p className=" text-center">Created By Aruhi Dwivedi All Rights Reserved</p>
+  <div className="flex-grow h-px bg-gray-400 ml-4"></div>
+</div>
+
           </div>
         </div>
       </section>
